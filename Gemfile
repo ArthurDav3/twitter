@@ -23,6 +23,11 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 # device user management and auth
 gem 'devise'
+#simple form
+gem 'simple_form'
+#gravatar
+gem 'gravatar_image_tag'
+
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
