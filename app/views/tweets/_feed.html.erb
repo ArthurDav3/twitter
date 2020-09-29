@@ -6,12 +6,10 @@
             </p>
         </figure>
         <div class="media-content">
-
+            <%= render 'tweets/form' %>
         </div>
     </article>
-</div>
-
-<% @tweets.each do |tweet| %>
+    <%@tweets.each do |tweet| %>
     <div class="box">
         <article class="media">
             <div class="media-left">
@@ -23,7 +21,7 @@
                 <div class="content">
                     <strong>Arthur David </strong>
                     <small> @Arthurdav3 </small>
-                    <p><% tweet.tweet %></p>
+                    <p><%= tweet.tweet %></p>
                 </div>
                 <nav class="level">
                     <div class="level-left is-mobile">
@@ -43,3 +41,4 @@
         </article>
     </div>
 <% end %>
+</div>
