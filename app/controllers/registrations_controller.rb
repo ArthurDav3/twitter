@@ -1,4 +1,4 @@
-class RegistrationController < Devise::RegistrationController
+class RegistrationsController < Devise::RegistrationsController
     # manual Registration Controller < Devise gem 
     # define params required for sign up and updating account 
   private
