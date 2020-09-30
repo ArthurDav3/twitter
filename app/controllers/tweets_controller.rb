@@ -6,7 +6,7 @@ class TweetsController < ApplicationController
   def index
     @tweets = Tweet.all.order("created_at DESC")
     @tweet = Tweet.new # new tweet redirect on index instead of new/ route 
-
+    @users = User.all
   end
 
   # GET /tweets/1
